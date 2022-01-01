@@ -11,7 +11,7 @@ import { OrderModule } from "./order/order.module";
         ServeStaticModule.forRoot({ rootPath: path.resolve(__dirname, 'static') }),
         PizzaModule,
         OrderModule,
-        MongooseModule.forRoot('mongodb+srv://roman:roman123@cluster0.hffjl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'),
+        MongooseModule.forRoot("mongodb+srv://roman:roman123@cluster0.hffjl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"),
         FileModule,
     ]
 })
